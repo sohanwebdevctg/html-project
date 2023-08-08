@@ -1,0 +1,500 @@
+/* universal selector start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+/* universal selector start */
+
+/* common selector start */
+:root{
+    --border-color: #D1D1D1;
+    --background1-color: #562EFF;
+    --background2-color: #FFFFFF;
+    --background3-color: #F3F1FF;
+    --color1-one: #000000;
+    --color2-two: #9F9F9F;
+    --color3-three: #ED6B4F;
+    --color4-four: #FFC014;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #9F9F9F;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    background: var(--background3-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.mainTitle {
+    color: var(--background1-color);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 25px 0;
+}
+/* common selector end */
+
+
+/* header section start */
+.header{
+    background-color: var(--background1-color);
+}
+
+/* navbar section start */
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 870px;
+    margin: 0 auto;
+}
+
+/* logo section start */
+.navbar .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+
+.logo h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--background2-color);
+}
+/* logo section end */
+
+/* contact section  start */
+.navbar .contact{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.contact ul li{
+    display: inline-block;
+    padding: 22px 16px;
+
+}
+
+.contact ul li a{
+    color: var(--background2-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact img{
+    width: 51px;
+    height: 51px;
+}
+/* contact section  end */
+
+/* navbar section end */
+
+/* header section end */
+
+
+
+/* main section start */
+
+/* topPlayer and topBlog section start */
+
+/* topPlayer section start */
+.topPlayerAndBlog{
+    width: 870px;
+    background-color: var(--background2-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+/* players section start */
+.topPlayer .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+/* player section start */
+.topPlayer .players .player{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.topPlayer .players .player img{
+    width:56px;
+    height: 56px;
+}
+
+.topPlayer .players .player h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* player section end */
+
+/* players section end */
+
+/* topPlayer section end */
+
+/* top blog section start */
+
+
+
+
+/* blogs section start */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+/* blogsArticle section start */
+.blogs .blogArticle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+/* blogThumb section start */
+
+.blogs .blogArticle .blogThum img{
+    width: 177px;
+    height: 117px;
+}
+
+/* blogThumb section end */
+
+/* blogDet section start */
+.blogs .blogArticle .blogDet h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blogs .blogArticle .blogDet p{
+    color: #9F9F9F;
+    padding-top: 10px;
+}
+
+.blogs .blogArticle .blogDet a{
+    color:#562EFF;
+}
+/* blogDet section end */
+
+/* blogsArticle section end */
+
+/* blogs section end */
+
+/* topBlog section start */
+
+/* topPlayer and topBlog section end */
+
+
+
+/* latestCourse section start */
+.latestCourse{
+    width: 870px;
+    background-color: var(--background2-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* latestCou section start */
+
+/* course section start */
+.latestCou .course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+/* articleCourse section start */
+
+.articleCourse{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* courseThumb section start */
+.latestCou .course .articleCourse .courseThumb img{
+    width: 260px;
+    height: 120px;
+}
+/* courseThumb section end */
+
+/* courseDes section start */
+.latestCou .course .articleCourse .courseDes h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.latestCou .course .articleCourse .courseDes p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ED6B4F;
+}
+
+.number{
+    padding-left: 5px;
+    color: #9F9F9F;
+}
+
+.time{
+    background: #FFE4E8;
+    border-radius: 15px 15px 15px 15px;
+    padding: 2px;
+    color: #FF4A60;
+    margin-right: 5px;
+}
+/* courseDes section end */
+
+
+/* courseTime section start */
+.articleCourse .courseTime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articleCourse .courseTime .rate img{
+    width: 12px;
+    height: 12px;
+}
+
+.articleCourse .courseTime .time img{
+    width: 12px;
+    height: 12px;
+}
+/* courseTime section end */
+
+/* articleCourse section end */
+
+/* course section end */
+
+/* latestCou section end */
+
+/* latestCourse section end */
+
+
+/* main section end */
+.display{
+    display: none;
+}
+
+
+
+/* media queries section start */
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .mainTitle{
+        text-align: center;
+    }
+    .navbar{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 0;
+    }
+
+    .navbar .logo {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navbar .contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar .contact{
+        gap: 15px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .topPlayerAndBlog{
+        width: 75%;
+        align-items: center;
+    }
+    
+
+    .topPlayer .players {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .topPlayer .players .player{
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .blogs .blogArticle {
+        align-items: center;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .blogs .blogArticle .blogThum img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blogs .blogArticle .blogDet h4 {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .blogs .blogArticle .blogDet p {
+        font-size: 10px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .latestCourse{
+        width: 75%;
+    }
+
+    .latestCou{
+        width: 100%;
+    }
+
+    .latestCou .course {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 25px;
+        justify-content: center;
+    }
+
+    .latestCou .course .articleCourse .courseThumb img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .articleCourse {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .latestCou .course .articleCourse .courseDes h4 {
+        font-size: 15px;
+    }
+
+    .course{
+        text-align: center;
+    }
+
+    .time{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 778px){
+
+
+    .mainTitle {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .navbar{
+        width: 92%;
+    }
+
+    .navbar .contact {
+        justify-content: flex-start;
+        gap:0px;
+    }
+
+    .topPlayer .players .player h3 {
+        font-size: 14px;
+    }
+
+    .blogs{
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 40px;
+    }
+
+    .blogs .blogArticle {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .blogs .blogArticle .blogThum img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blogs .blogArticle .blogDet h4 {
+        font-size: 16px;
+    }
+
+    .blogs .blogArticle .blogDet p {
+        font-size: 13px;
+    }
+
+
+    .topPlayerAndBlog, .latestCourse{
+        width: 86%;
+    }
+    .latestCourse{
+        width: 86%;
+    }
+
+    .latestCou .course {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+
+    br{
+        display: none;
+    }
+}
+
+
+
+/* media queries section start */

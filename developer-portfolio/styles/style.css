@@ -1,0 +1,314 @@
+/* universal selector start */
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* universal selector end */
+
+/* common selector start */
+
+.primaryColor{
+    color: #FD6E0A;
+}
+
+.commonBtn{
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    display: inline-block;
+}
+
+.commonBtnTwo{
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    padding: 14px 35px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* common selector end */
+
+/* header section start */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* navbar section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.navTitle{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+/* navbar section end */
+
+/* banner section start */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+
+.banner .bannerSubTitle{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 4px;
+}
+
+.banner .bannerTitle{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 18px;
+}
+
+.banner .bannerDescription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+
+
+/* banner section end */
+
+/* header section end */
+
+/* main section start */
+
+/* about section start */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about .aboutTitle{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about .aboutDescription{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about .aboutInfoContainer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about .aboutInfoContainer .aboutInfo .aboutInfoTitle{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.about .aboutInfoContainer .aboutInfo .aboutInfoDescription{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* about section end */
+
+/* what i do section start */
+.whatIDo{
+    margin-top: 130px;
+}
+
+.whatIDo .doTitle{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.whatIDo .doDescription{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px 150px;
+}
+
+.whatIDo .doInfoContainer{
+    display: flex;
+    gap: 24px;
+}
+
+.whatIDo .doInfoContainer .doInfo{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.whatIDo .doInfoContainer .doInfo .doInfoTitle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.whatIDo .doInfoContainer .doInfo .doInfoDescription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/* what i do section end */
+
+/* resume section start */
+.resume{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.resume .resumeTitle{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.resume .resumeBox{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.resume .resumeBox .resumeInfo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .resumeBox .resumeInfoContainer .resumeInfoConTitle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.resume .resumeBox .resumeInfoContainer .resumeInfo .resumeInfoTitle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .resumeBox .resumeInfoContainer .resumeInfo .resumeInfoSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.resume .resumeBox .resumeInfoContainer .resumeInfo .resumeInfoDescription{
+    color: #757575;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume .button{
+    text-align: center;
+}
+
+
+/* resume section end */
+
+
+/* main section end */
+
+/* footer section start */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .contactInfo{
+    text-align: left;
+}
+
+.contact .contactInfo .contactTitle{
+    margin-bottom: 20px;
+}
+
+.contact .contactInfo .contactDescription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.contact .contactInfo a{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.contact .contactInfo form input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 40px;
+}
+/* footer section end */

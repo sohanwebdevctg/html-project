@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* commonBtn section start */
+.commonBtn {
+    background-color: #0F6AF2;
+    font-weight: bold;
+    padding: 14px 36px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    border: 0;
+}
+
+.commonTitle{
+    font-size: 30px;
+    color: black;
+}
+
+.commonDes{
+    font-size: 18px;
+    color: darkgray;
+}
+/* commonBtn section end */
+
+/* header section start */
+header{
+    height: 630px;
+    background: linear-gradient(0deg, rgba(255,255,255,0.10), lightgray);
+    background-color: #FFA500;
+    background-blend-mode: difference;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.header nav .navTitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header nav .subTitle {
+    color: #FFA500;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+header nav ul li:hover{
+    background-color: #FFA500;
+    color: black;
+}
+
+header .banner{
+    display: flex;
+    align-items: center;
+    margin: 60px 200px;
+}
+
+header .bannerInfo{
+    padding-top: 50px;
+    text-align: center;
+}
+
+header .bannerSub{
+    font-size: 15px;
+    color: #FFECE1;
+}
+
+header .bannerTitle{
+    font-size: 36px;
+    margin-top: 10px;
+    color: #FBFFFC;
+    font-weight: 700;
+}
+
+header .bannerDes{
+    font-size: 16px;
+    padding: 20px 150px;
+    color: #FFECE1;
+}
+/* header section end */
+
+/* main section start */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* team section start */
+
+.team{
+    text-align: center;
+    padding: 80px 200px;
+    background-color: #F7F7F7;
+}
+
+.team .commonTitle{
+    margin: 10px 0;
+}
+
+.team .commonDes{
+    padding-bottom: 15px;
+}
+
+.team .teamContent{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.team .teamContent .teamBox{
+    box-shadow: 1px 1px 10px gray;
+    padding: 30px 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.team .teamContent .teamBox i{
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.team .teamContent .teamBox h6{
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.team .teamContent .teamBox p{
+    font-size: 14px;
+    color: darkgray;
+}
+
+/* team section end */
+
+/* unlock section start */
+.unlock{
+    padding: 100px 200px;
+    background-color: #ffffff;
+}
+
+.unlock .unlockBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.unlock .unlockBox img{
+    width: 50%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.unlock .unlockBox .unlockInfo .commonTitle{
+    margin-bottom: 20px;
+}
+
+.unlock .unlockBox .unlockInfo .commonDes{
+    margin-bottom: 30px;
+}
+/* unlock section end */
+
+/* product section start */
+.product{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color: #F7F7F7;
+}
+
+.product .commonTitle{
+    margin-bottom: 20px;
+}
+
+.product .productInfo{
+    margin-bottom: 25px;
+}
+
+.product .commonDes{
+    margin-bottom: 30px;
+}
+
+.product i{
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.product h6{
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.product p{
+    font-size: 14px;
+    padding-right: 100px;
+}
+/* product section end */
+
+/* logo section start */
+.logo{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    background-color: #ffffff;
+}
+/* logo section end */
+
+/* potential section start */
+.protential{
+    padding: 50px 200px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+.protential .protentialCon{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.protential .protentialCon .protentialInfo{
+    padding: 50px 40px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.protential .protentialCon .protentialInfo:hover{
+    border: 2px solid #EA8974;
+}
+
+.protential .protentialCon .protentialInfo h6{
+    color: #DDB584;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.protential .protentialCon .protentialInfo h2{
+    margin: 10px 0;
+    font-size: 35px;
+}
+
+.protential .protentialCon .protentialInfo ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.protential .protentialCon .protentialInfo ul li{
+    margin: 12px 0;
+    color: darkgray;
+}
+
+.protential .protentialCon .protentialInfo ul li i{
+    color: #FFA500;
+    padding-right: 5px;
+}
+
+.protential .protentialCon .protentialInfo .commonBtn{
+    margin-top: 10px;
+    padding: 12px 28px;
+}
+/* potential section end */
+
+/* infoLoc section start */
+.infoLoc{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 70px 200px 30px;
+    background-color: #ffffff;
+}
+
+.infoLoc .locContainer h6{
+    color: #DDB584;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.infoLoc .locContainer p{
+    margin: 12px 0;
+    color: darkgray;
+}
+
+.infoLoc .locContainer i{
+    color: #FFA500;
+    font-size: 24px;
+    margin-right: 5px;
+}
+/* infoLoc section end */
+
+/* main section end */
+
+/* footer section start */
+footer{
+    padding: 20px 200px;
+    background-color: #ffffff;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: darkgray;
+    font-weight: 600;
+}
+
+footer hr{
+    margin-bottom: 30px;
+}
+/* footer section end */

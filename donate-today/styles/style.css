@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common start */
+.commonBtn{
+    background-color: rgb(255,89,89);
+    border: 0;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: ghostwhite;
+    border-radius: 10px;
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.commonTitle{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #121212;
+}
+
+.commonDes{
+    font-size: 20px;
+    color: #B0B0B0;
+    margin-bottom: 20px;
+}
+/* common end */
+
+/* header section start */
+.header{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background: url('../images/donation7.jpg'), linear-gradient(#e2d9d9, #131315 );
+    background-blend-mode: hard-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .headerBox{
+    
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 220px;
+}
+
+.header .headerBox .headerTitle{
+    font-size: 60px;
+    color: #FFFFFF;
+    padding: 0 40px;
+}
+
+.header .headerBox .headerDes{
+    font-size: 19px;
+    color: #ADA5A5;
+    padding: 30px 100px;
+}
+
+/* header section end */
+
+/* today section start */
+.today{
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.today ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.today ul li{
+    list-style: none;
+}
+
+.today ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    color: #9C9C9C;
+    background-color: #FAFAFA;
+    padding: 30px 40px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.today ul li a:hover{
+    color: #FF4E4E;
+    background-color: #FFEEEE;
+    border: 2px solid #FF4E4E;
+}
+
+.today .amount{
+    font-size: 20px;
+    color: gray;
+    margin-top: 25px;
+}
+
+.today hr{
+    margin: 20px 0;
+}
+/* today section end */
+
+/* plan section start */
+.plan .planInfo{
+    padding: 20px 200px;
+    text-align: center;
+}
+
+.plan .planBox{
+    display: flex;
+    gap: 20px;
+}
+
+.plan .planBox .planBoxCon{
+    padding: 30px 25px;
+}
+
+.plan .planBox .planOne{
+    background-color: #EDF5F6;
+}
+
+.plan .planBox .planTwo{
+    background-color: #FFEEEE;
+}
+
+.plan .planBox .planThree{
+    background-color: #FFF4D6;
+}
+
+.plan .planBox .planBoxCon h4{
+    margin: 15px 0;
+}
+
+.plan .planBox .planBoxCon p{
+    color: #B3B8B8;
+}
+
+/* plan section end */
+
+/* donation section start */
+.commonSec{
+    display: flex;
+    gap: 60px;
+    margin: 100px 0;
+}
+
+.commonSec .commonSecInfo{
+    padding: 40px 20px 40px 0;
+}
+
+.commonSec .commonView img{
+    width: 90%;
+    height: 100%;
+}
+/* donation section end */
+
+/* update section start */
+.update{
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.update .search{
+    width: 100%;
+    height: 100px;
+    background-color: #FFF4D6;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+
+.update .search input[type="email"]{
+    padding: 17px;
+    border: 0;
+    background-color: #D9D9D9;
+}
+
+.update .search .commonBtn{
+    border-radius: 0;
+}
+/* update section end */
+
+/* footer section start */
+footer{
+    height: 80px;
+    text-align: center;
+    background-color: #0B0D17;
+    padding-top: 30px;
+}
+
+footer h3{
+    color: #FF5959;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+footer p{
+    color: gray;
+    font-size: 12px;
+}
+/* footer section end */

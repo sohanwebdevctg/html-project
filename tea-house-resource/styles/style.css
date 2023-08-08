@@ -1,0 +1,16 @@
+
+
+/* :root{
+    --text-color1: #1C1C1C;
+    --text-color2: #777777;
+    --text-color3: #ffffff;
+    --text-color4: #F4F4F4;
+    --button-background-color: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    --card-background-color: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+    --div-background-color: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    --footer-background-color: linear-gradient(270deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 137, 56, 0.1) 100%);
+} */
+
+body{
+    font-family: 'Manrope', sans-serif;
+}

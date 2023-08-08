@@ -1,0 +1,385 @@
+/* universal selector start */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* universal selector end */
+
+/* common selector start */
+.headerInfo, main, .footerContainer{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* common selector end */
+
+/* header section start */
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    height: 700px;
+    background-color: gray;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* headerInfo section start */
+
+/* headerInfoTitle section start */
+.header .headerInfo .headerInfoTitle{
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* headerInfoTitle section end */
+
+/* headerInfoDescription section start */
+.header .headerInfo .headerInfoDescription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 24px;
+}
+/* headerInfoDescription section end */
+
+/* headerInfoButton section start */
+.headerInfoButton{
+    font-size:20px;
+    font-weight: 600;
+    color: #005FAC;
+    padding: 20px 25px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+/* headerInfoButton section end */
+
+/* headerInfo section end */
+
+/* header section end */
+
+/* main section start */
+
+/* previousYear section start */
+.previousYear{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 60px 0 35px 0;
+}
+
+/* previousYearContainer section start */
+
+/* previous img start */
+.previousYearContainer img{
+    width: 80%;
+    text-align: center;
+}
+/* previous img end */
+
+/* previousTitle start */
+
+.previousYear .previousYearContainer .previousTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+}
+/* previousTitle end */
+
+/* previousDescription start */
+.previousYear .previousYearContainer .previousDescription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 15px;
+}
+/* previousDescription end */
+
+/* previousListItem star */
+.previousYear .previousYearContainer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.previousYear .previousYearContainer ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+.previousYear .previousYearContainer ul li i{
+    color: #16D877;
+    margin-right: 8px;
+}
+/* previousListItem end */
+
+/* previousYearContainer section end */
+
+/* previousYear section end */
+
+/* myPlans section start */
+.myPlans{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* myPlansTitle section start */
+.myPlansTitle{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+/* myPlansTitle section end */
+
+/* myPlansContainer section start */
+.myPlansContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* myPlanesInfo title start */
+.myPlansContainer .myPlansInfoTitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    color: #151414;
+}
+/* myPlanesInfo title end */
+
+/* myPlanesInfo des start */
+.myPlansContainer .myPlanesInfoDes{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* myPlanesInfo des end */
+
+/* myPlansContainer section end */
+
+/* myPlans section end */
+
+/* positiveMindset section start */
+
+.positiveMindset{
+    margin: 110px 0;
+}
+
+/* positiveContainer section start */
+.positiveMindset .positiveContainer{
+    padding: 100px 50px;
+    border-radius: 8px;
+    background: url('../images/watch.png'), linear-gradient(90deg,#035FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* positiveTitle section start */
+.positiveMindset .positiveContainer .positiveTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* positiveTitle section end */
+
+/* positiveButton section start */
+.positiveMindset .positiveContainer .positiveButton{
+    font-size: 26px;
+    font-weight: 600;
+    color: #035FAC;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+
+}
+/* positiveButton section end */
+
+/* positiveContainer section end */
+
+/* positiveMindset section end */
+
+/* ourCustomerSpeak section start */
+.ourCustomerSpeak{
+    margin: 80px 0;
+    text-align: center;
+}
+
+/* customerTitle start */
+.ourCustomerSpeak .customerTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+}
+/* customerTitle end */
+
+/* customerDescription start */
+.ourCustomerSpeak .customerDescription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 15px;
+}
+/* customerDescription end */
+
+/* customerContainer section start */
+.ourCustomerSpeak .customerContainer{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* customerRate start */
+.ourCustomerSpeak .customerContainer .customerRate{
+    box-shadow: 5px 5px 15px black;
+    padding: 30px 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* rateDes start */
+.customerRate .rateDes{
+    color: #737272;
+    font-size: 16px;
+}
+/* rateDes end */
+
+/* name start */
+.customerRate .name{
+    font-size: 24px;
+    color: #151414;
+    margin: 15px 0;
+}
+/* name end */
+
+/* customerImg start */
+.customerRate img{
+    display: inline-block;
+    width: 70%;
+    border-radius: 50%;
+    text-align: center;
+    margin: 30px 0;
+}
+/* customerImg end */
+
+/* rate start */
+.customerRate i{
+    font-size: 20px;
+    color: goldenrod;
+}
+/* rate end */
+
+/* customerRate end */
+
+/* customerContainer section end */
+
+/* ourCustomerSpeak section end */
+
+/* main section end */
+
+/* footer section start */
+
+footer{
+    background-color: #151414;
+}
+
+/* footerContainer section start */
+footer .footerContainer{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footerInfo section start */
+
+/* title start */
+footer .footerInfo .title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+/* title end */
+
+/* description start */
+footer .footerInfo .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+/* description end */
+
+/* link start */
+footer .footerInfo .link{
+    margin-bottom: 15px;
+}
+
+footer .footerInfo a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+/* link end */
+
+/* socialMedia start */
+footer .footerInfo img{
+    margin-right: 15px;
+}
+/* socialMedia end */
+
+/* footerInfo section end */
+
+/* footerForm section start */
+.footerContainer .form{
+    text-align: left;
+}
+
+/* formTitle start */
+.footerContainer .form .formTitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+/* formTitle end */
+
+/* form start */
+form input[type="email"]{
+    width: 190px;
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: #151414;
+    border-radius: 8px;
+    color: #ffffff;
+}
+/* form end */
+
+/* formButton start */
+.form .formButton{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #035FAC;
+    color: #ffffff;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 8px;
+}
+/* formButton end */
+
+/* footerForm section end */
+
+/* footerContainer section end */
+
+/* footer section end */
